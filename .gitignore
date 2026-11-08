@@ -1,0 +1,24 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets and config
+.env
+*.env
+
+# Data (keep only small samples in git)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/raw/sample_*.csv
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Database files
+*.db
+*.sqlite
